@@ -1,5 +1,6 @@
 import Axios from "axios";
 import React, { useState } from "react";
+import "./App.css";
 import Recipi from "./component/Recipi";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="container mt-5">
+      <h1 className='rapp'>Search Your Favorite Food Recipis</h1>
        <form onSubmit = {onSubmit}>
       <div className="input-group">
        

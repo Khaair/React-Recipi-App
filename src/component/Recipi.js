@@ -1,9 +1,10 @@
 import React from 'react';
+import "../App.css";
 
 
  function Recipi({recipe}) {
   return(
-    <div className='container mt-5'>
+    <div className='item'>
         <img alt='Recipii' src={recipe["recipe"]["image"]}/>
         <p>{recipe["recipe"]["label"]}</p>
     </div>
